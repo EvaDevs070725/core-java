@@ -49,7 +49,8 @@ git fetch                    # Download objects and refs
 
 ## Integrated Development Environments (IDEs)
 
-Choosing the right IDE can significantly improve development efficiency. Here are recommended IDEs for Full Stack Java/React development:
+Choosing the right IDE can significantly improve development efficiency. 
+Here are recommended IDEs for Java development:
 
 ### For Java Development
 
@@ -64,26 +65,17 @@ Choosing the right IDE can significantly improve development efficiency. Here ar
     - Built-in Java EE tools
     - Maven and Gradle support
 
-
 ## Essential Development Tools
 
-- **Package Managers:**
-    - [npm (Node Package Manager)](https://nodejs.org/en/download) for React dependencies
-    - Maven or Gradle for Java dependencies
 - **Build Tools:**
-    - Maven for Java projects
-    - Webpack for React applications
-    - Jenkins for continuous integration
+  - [Maven](https://maven.apache.org/download.cgi) for Java dependencies
 - **Testing Tools:**
     - JUnit for Java testing
-    - Jest for React testing
-    - [Postman](https://www.postman.com/downloads) for API testing
 
 ## Environment Configuration
 
 - **Java Development Kit (JDK):** Install the appropriate version for your project
-- **Node.js:** Required for React development and npm package management
-- **Environment Variables:** Configure JAVA_HOME, PATH, and other necessary variables
+- **Environment Variables:** Configure `JAVA_HOME`, `PATH`, and other necessary variables
 
 ## Best Practices for Development Setup
 
@@ -98,7 +90,6 @@ Remember that mastering these tools and environments takes time. Start with the 
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 - [Eclipse](https://www.eclipse.org/downloads)
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Webstorm](https://www.jetbrains.com/webstorm/download)
-- [npm (Node Package Manager)](https://nodejs.org/en/download)
-- [Postman](https://www.postman.com/downloads)
+- [Java 21 JDK](https://www.oracle.com/java/technologies/downloads/#java21)
+- [Maven](https://maven.apache.org/download.cgi) for Java dependencies
 - [Git](https://git-scm.com/downloads)
