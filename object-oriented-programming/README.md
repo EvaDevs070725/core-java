@@ -1,49 +1,190 @@
-# Object Oriented Programming
+# 🧱 Java OOP Interview Practice and Questions
 
-## Common Questions
+---
 
-### _Describe the concepts of Java object-oriented programming?_
-    Object-oriented programming (OOP) is a programming paradigm based
-    on the concept of "objects"
+## 📑 Table of Contents
 
-#### Classes and Objects:
-- the blueprint or template for creating objects.
-- defines the attributes and methods that all objects of that type will have.
-- an object is an instance of a class.
-- It represents a specific entity in the program's domain.
+1. [What are the main principles of Object-Oriented Programming?](#1--what-are-the-main-principles-of-object-oriented-programming)
+2. [What is the difference between Object-Oriented Programming language and Object-Based Programming language?](#2--what-is-the-difference-between-object-oriented-programming-language-and-object-based-programming-language)
+3. [In Java, what is the default value of an object reference defined as an instance variable?](#3--in-java-what-is-the-default-value-of-an-object-reference-defined-as-an-instance-variable)
+4. [In Java what is the default value of an object reference defined as an instance variable in an Object?](#4--in-java-what-is-the-default-value-of-an-object-reference-defined-as-an-instance-variable-in-an-object)
+5. [Why do we need constructor in Java?](#5--why-do-we-need-constructor-in-java)
+6. [Why do we need default constructor in Java classes?](#6--why-do-we-need-default-constructor-in-java-classes)
+7. [What is the value returned by Constructor in Java?](#7--what-is-the-value-returned-by-constructor-in-java)
+8. [Can we inherit a Constructor?](#8--can-we-inherit-a-constructor)
+9. [Why constructors cannot be final, static, or abstract in Java?](#9--why-constructors-cannot-be-final-static-or-abstract-in-java)
 
-#### Encapsulation:
-    Encapsulation is the bundling of data (attributes) and
-    methods that operate on that data into a single unit (a class).
+--- 
 
-- Hides the internal state of an object
-- Only exposes the necessary operations to interact with it
-- Promotes data abstraction and security.
+## 1. ❓ What are the main principles of Object-Oriented Programming?
 
-#### Inheritance:
-    One class can inherit properties and behavior from another class.
+### 🔍 Concept Check
+**List and explain the four principles:**
 
-- The class being inherited from is called the `superclass` or `parent` class,
-- The class that inherits is called the `subclass` or `child` class.
-- Promotes code reuse
-- Allows for the creation of hierarchical relationships between classes.
+- **Encapsulation:**
+  > ...
 
-#### Polymorphism:
-    Polymorphism means the ability to take many forms.
-    Allows objects of different classes to be treated as objects of a common superclass.
+- **Abstraction:**
+  > ...
 
-- compile-time polymorphism (method overloading)
-- runtime polymorphism (method overriding).
+- **Inheritance:**
+  > ...
 
-Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+- **Polymorphism:**
+  > ...
 
-#### Abstraction:
-    The process of hiding the implementation details 
-    and showing only the essential features of an object.
+### 💻 Code Practice
+Create a class that demonstrates all four OOP principles using:
 
-Abstract classes and interfaces are key components of abstraction in Java.
+- private fields and public getters/setters
+- inheritance with method overriding
+- abstract class or interface
+- method overloading
 
-- Abstract classes cannot be instantiated
-- May contain abstract methods that must be implemented by its subclasses.
-- Interfaces define a contract for classes to implement,
-- Interfaces specify a set of methods that must be defined by any class that implements the interface.
+### ❓ Reflection
+**Which principle improves code reuse and which improves security?**
+
+> ...
+
+---
+
+## 2. ❓ What is the difference between Object-Oriented Programming language and Object-Based Programming language?
+
+### 🔍 Concept Check
+| Feature              | OOP Language (e.g., Java) | Object-Based (e.g., JavaScript, VBScript) |
+|----------------------|---------------------------|-------------------------------------------|
+| Inheritance          | Supported                 | Not supported                             |
+| Polymorphism         | Supported                 | Limited                                   |
+| Encapsulation        | Supported                 | Supported                                 |
+| Class-based design   | Yes                       | No (Prototype-based)                      |
+
+### 💻 Code Practice
+- Create a class in Java with inheritance and another with just object usage (without inheritance).
+- Try mimicking JavaScript-like object-based behavior.
+
+### ❓ Reflection
+**Can you call JavaScript a true OOP language? Why or why not?**
+
+> ...
+
+---
+
+## 3. ❓ In Java, what is the default value of an object reference defined as an instance variable?
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+```java
+public class DefaultObject {
+    String name;
+
+    void printName() {
+        System.out.println(name); // should print: null
+    }
+
+    public static void main(String[] args) {
+        new DefaultObject().printName();
+    }
+}
+```
+### ❓ Reflection
+**Can you call JavaScript a true OOP language? Why or why not?**
+
+> ...
+
+---
+
+## 4. ❓ In Java what is the default value of an object reference defined as an instance variable in an Object?_
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+
+### ❓ Reflection
+
+> ...
+
+---
+
+## 5. ❓ Why do we need constructor in Java?_
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+
+### ❓ Reflection
+
+> ...
+
+---
+
+## 6. ❓ Why do we need default constructor in Java classes?_
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+
+### ❓ Reflection
+
+> ...
+
+---
+
+## 7. ❓ What is the value returned by Constructor in Java?_
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+
+### ❓ Reflection
+
+> ...
+
+---
+
+## 8. ❓ Can we inherit a Constructor?_
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+
+### ❓ Reflection
+
+> ...
+
+---
+
+## 9. ❓ Why constructors cannot be final, static, or abstract in Java?_
+
+### 🔍 Concept Check
+**Your Answer:**
+
+> ...
+
+### 💻 Code Practice
+
+### ❓ Reflection
+
+> ...
+
+---
+
+
