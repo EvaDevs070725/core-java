@@ -14,12 +14,11 @@
 8. [Can we inherit a Constructor?](#8--can-we-inherit-a-constructor)
 9. [Why constructors cannot be final, static, or abstract in Java?](#9--why-constructors-cannot-be-final-static-or-abstract-in-java)
 
---- 
+---
 
 ## 1. ❓ What are the main principles of Object-Oriented Programming?
 
 ### 🔍 Concept Check
-**List and explain the four principles:**
 
 - **Encapsulation:**
   > ...
@@ -34,23 +33,24 @@
   > ...
 
 ### 💻 Code Practice
-Create a class that demonstrates all four OOP principles using:
 
-- private fields and public getters/setters
-- inheritance with method overriding
-- abstract class or interface
-- method overloading
+- Define a class with private fields and provide public getters and setters.
+- Create a superclass and a subclass demonstrating inheritance.
+- Include a method in the subclass that overrides a method from the superclass.
+- Define an abstract class or interface and implement it.
+- Demonstrate method overloading with different parameter lists.
 
 ### ❓ Reflection
-**Which principle improves code reuse and which improves security?**
 
-> ...
+- Which OOP principle helps hide implementation details?
+- Which principle enables code reuse through hierarchy?
 
 ---
 
 ## 2. ❓ What is the difference between Object-Oriented Programming language and Object-Based Programming language?
 
 ### 🔍 Concept Check
+
 | Feature              | OOP Language (e.g., Java) | Object-Based (e.g., JavaScript, VBScript) |
 |----------------------|---------------------------|-------------------------------------------|
 | Inheritance          | Supported                 | Not supported                             |
@@ -59,132 +59,145 @@ Create a class that demonstrates all four OOP principles using:
 | Class-based design   | Yes                       | No (Prototype-based)                      |
 
 ### 💻 Code Practice
-- Create a class in Java with inheritance and another with just object usage (without inheritance).
-- Try mimicking JavaScript-like object-based behavior.
+
+- Create a class in Java with inheritance and method overriding.
+- Simulate object-based behavior using a class with static methods only (no inheritance).
+- Attempt a prototype-style object pattern in JavaScript (optional).
 
 ### ❓ Reflection
-**Can you call JavaScript a true OOP language? Why or why not?**
 
-> ...
+- Why is Java considered a "true" object-oriented language?
+- Can JavaScript fully support OOP concepts?
 
 ---
 
 ## 3. ❓ In Java, what is the default value of an object reference defined as an instance variable?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
-```java
-public class DefaultObject {
-    String name;
 
-    void printName() {
-        System.out.println(name); // should print: null
-    }
+- Create a class with a non-initialized object field.
+- Print the value of the object reference in the main method.
+- Observe the default value when no constructor is used.
 
-    public static void main(String[] args) {
-        new DefaultObject().printName();
-    }
-}
-```
 ### ❓ Reflection
-**Can you call JavaScript a true OOP language? Why or why not?**
 
-> ...
+- Why does Java set default values to uninitialized variables?
+- What is the default value of `String` and other objects?
 
 ---
 
-## 4. ❓ In Java what is the default value of an object reference defined as an instance variable in an Object?_
+## 4. ❓ In Java what is the default value of an object reference defined as an instance variable in an Object?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
 
+- Create a class with a reference-type field and no constructor.
+- Instantiate the object and print the field value.
+
 ### ❓ Reflection
 
-> ...
+- How is memory allocated for object references?
+- What happens if you try to access methods on a `null` object?
 
 ---
 
-## 5. ❓ Why do we need constructor in Java?_
+## 5. ❓ Why do we need constructor in Java?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
 
+- Create a class with a constructor that initializes fields.
+- Print the initialized values in the main method.
+- Create another class without a constructor and observe behavior.
+
 ### ❓ Reflection
 
-> ...
+- How does a constructor improve object setup?
+- What if you omit the constructor?
 
 ---
 
-## 6. ❓ Why do we need default constructor in Java classes?_
+## 6. ❓ Why do we need default constructor in Java classes?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
 
+- Define a class with no constructors and instantiate it.
+- Define a custom constructor and try to instantiate the class without passing arguments.
+- Add a default constructor manually and observe changes.
+
 ### ❓ Reflection
 
-> ...
+- What role does the compiler play in default constructor creation?
+- When should you define your own default constructor?
 
 ---
 
-## 7. ❓ What is the value returned by Constructor in Java?_
+## 7. ❓ What is the value returned by Constructor in Java?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
 
+- Define a constructor and try assigning its value to a variable.
+- Observe how object references work post-construction.
+- Try returning a value from a constructor and see the compilation result.
+
 ### ❓ Reflection
 
-> ...
+- Why can't a constructor return anything explicitly?
+- How does object creation work behind the scenes?
 
 ---
 
-## 8. ❓ Can we inherit a Constructor?_
+## 8. ❓ Can we inherit a Constructor?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
 
+- Create a superclass with a parameterized constructor.
+- Create a subclass and observe compilation error if constructor is not explicitly called.
+- Use `super()` to call the parent constructor from subclass.
+
 ### ❓ Reflection
 
-> ...
+- Why must constructors be explicitly defined in subclass?
+- What happens when superclass constructor has arguments?
 
 ---
 
-## 9. ❓ Why constructors cannot be final, static, or abstract in Java?_
+## 9. ❓ Why constructors cannot be final, static, or abstract in Java?
 
 ### 🔍 Concept Check
-**Your Answer:**
 
 > ...
 
 ### 💻 Code Practice
 
+- Try marking a constructor `final`, `static`, and `abstract`.
+- Observe compilation errors and explain them.
+
 ### ❓ Reflection
 
-> ...
+- Why is `final` or `abstract` meaningless for constructors?
+- How does `static` conflict with the instance-based nature of constructors?
 
 ---
-
-
