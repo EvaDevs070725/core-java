@@ -12,7 +12,7 @@ public class IsoscelesTriangle extends Triangle {
    * @param base represents single side
    */
   protected IsoscelesTriangle(int side, int base) {
-    super(base,side, side);
+    super(base, side, side);
     this.side = side;
     this.base = base;
   }
